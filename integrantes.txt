@@ -1,0 +1,10 @@
+Diplomado Full Stack Modulo 6: Desarrollo con Vue.js
+Practica1 Vue3
+
+Nombre de los integrantes:
+- Andrea Carolina Llanos Rocha
+
+Pasos para iniciar el proyecto
+
+1. npm install
+2. npm run serve

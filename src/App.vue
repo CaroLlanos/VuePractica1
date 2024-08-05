@@ -1,10 +1,20 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <div id="app">
+    <Contactos />
+  </div>
   <router-view/>
 </template>
+
+<script>
+import Contactos from './components/ListaContactos.vue';
+
+export default {
+  name: 'App',
+  components: {
+    Contactos
+  }
+};
+</script>
 
 <style lang="scss">
 #app {
